@@ -1,0 +1,151 @@
+{
+  "1": {
+    "goal": false,
+    "heuristic": 1,
+    "Adj": [
+      {
+        "name": "2",
+        "A": { "a": 1 }
+      },
+      {
+        "name": "3",
+        "A": { "b": 0.95 }
+      },
+      {
+        "name": "5",
+        "A": { "b": 0.05 }
+      }
+    ]
+  },
+  "2": {
+    "goal": false,
+    "heuristic": 1,
+    "Adj": [
+      {
+        "name": "2",
+        "A": { "b": 1 }
+      },
+      {
+        "name": "3",
+        "A": { "a": 1 }
+      }
+    ]
+  },
+  "3": {
+    "goal": true,
+    "heuristic": 0,
+    "Adj": [
+      {
+        "name": "3",
+        "A": {
+          "a": 1,
+          "b": 1
+        }
+      }
+    ]
+  },
+  "4": {
+    "goal": false,
+    "heuristic": 0,
+    "Adj": [
+      {
+        "name": "4",
+        "A": {
+          "a": 1,
+          "b": 1
+        }
+      }
+    ]
+  },
+  "5": {
+    "goal": false,
+    "heuristic": 0,
+    "Adj": [
+      {
+        "name": "6",
+        "A": {
+          "a": 1,
+          "b": 1
+        }
+      }
+    ]
+  },
+  "6": {
+    "goal": false,
+    "heuristic": 0,
+    "Adj": [
+      {
+        "name": "7",
+        "A": {
+          "a": 1,
+          "b": 1
+        }
+      }
+    ]
+  },
+  "7": {
+    "goal": false,
+    "heuristic": 0,
+    "Adj": [
+      {
+        "name": "8",
+        "A": {
+          "a": 1,
+          "b": 1
+        }
+      }
+    ]
+  },
+  "8": {
+    "goal": false,
+    "heuristic": 0,
+    "Adj": [
+      {
+        "name": "9",
+        "A": {
+          "a": 1,
+          "b": 1
+        }
+      }
+    ]
+  },
+  "9": {
+    "goal": false,
+    "heuristic": 0,
+    "Adj": [
+      {
+        "name": "10",
+        "A": {
+          "a": 1,
+          "b": 1
+        }
+      }
+    ]
+  },
+  "10": {
+    "goal": false,
+    "heuristic": 0,
+    "Adj": [
+      {
+        "name": "11",
+        "A": {
+          "a": 1,
+          "b": 1
+        }
+      }
+    ]
+  },
+  "11": {
+    "goal": false,
+    "heuristic": 0,
+    "Adj": [
+      {
+        "name": "4",
+        "A": {
+          "a": 1,
+          "b": 1
+        }
+      }
+    ]
+  }
+}

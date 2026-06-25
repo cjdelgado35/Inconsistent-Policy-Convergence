@@ -1,0 +1,79 @@
+{
+  "1": {
+    "goal": false,
+    "deadend": false,
+    "heuristic": 1,
+    "Adj": [
+      {
+        "name": "2",
+        "A": { "a": 1 }
+      },
+      {
+        "name": "3",
+        "A": { "b": 0.95 }
+      },
+      {
+        "name": "4",
+        "A": { "b": 0.05 }
+      }
+    ]
+  },
+  "2": {
+    "goal": false,
+    "deadend": false,
+    "heuristic": 1,
+    "Adj": [
+      {
+        "name": "2",
+        "A": { "b": 1 }
+      },
+      {
+        "name": "5",
+        "A": { "a": 1 }
+      }
+    ]
+  },
+  "5": {
+    "goal": false,
+    "deadend": false,
+    "heuristic": 1,
+    "Adj": [
+      {
+        "name": "5",
+        "A": { "b": 1 }
+      },
+      {
+        "name": "3",
+        "A": { "a": 1 }
+      }
+    ]
+  },
+  "3": {
+    "goal": true,
+    "deadend": false,
+    "heuristic": 0,
+    "Adj": [
+      {
+        "name": "3",
+        "A": {
+          "a": 1,
+          "b": 1
+        }
+      }
+    ]
+  },
+  "4": {
+    "goal": false,
+    "deadend": true,
+    "heuristic": 0,
+    "Adj": [
+      {
+        "name": "4",
+        "A": {
+          "a": 1,
+          "b": 1
+        }
+      }
+    ]
+  }
+}
